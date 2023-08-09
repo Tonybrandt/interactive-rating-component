@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+
+<body class="body">
+
+  <main>
+
+    <section class="card active">
+      <div class="boximg">
+        <img class="boximg__img" src="images/icon-star.svg" alt="star" />
+      </div>
+
+      <h1 class="title">How did we do?</h1>
+
+      <p class="copy">Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!</p>
+      <section class="numbers">
+        <button class="numbers__box">1</button>
+        <button class="numbers__box">2</button>
+        <button class="numbers__box">3</button>
+        <button class="numbers__box">4</button>
+        <button class="numbers__box">5</button>
+      </section>
+
+      <div class="box_btn">
+        <input class="btn" type="submit" value="SUBMIT">
+      </div>
+
+    </section>
+
+    <!-- Thank you state start -->
+
+    <section class="card2">
+
+      <img src="images/illustration-thank-you.svg" alt="thankyou" />
+
+      <a href="" class="show">You selected <span id="result"></span> out of 5</a>
+
+      <h2 class="title">Thank you!</h2>
+
+      <p class="copy">We appreciate you taking the time to give a rating. If you ever need more support, do not hesitate to get in touch!</p>
+
+    </section>
+    <!-- Thank you state end -->
+
+    <footer class="footer">Coded by Gaston Brandt</footer>
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Gaston Brandt</a>.
+  </div> -->
+
+  </main>
+</body>
+
+</html>
